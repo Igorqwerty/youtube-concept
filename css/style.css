@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 .header {
   padding: 20px 70px 20px 32px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .menu-button {
   padding: 0;
@@ -27,6 +30,10 @@ body {
   width: 20px;
   height: 3px;
   border-radius: 20px;
+}
+.header a, .icons-link {
+  display: flex;
+  align-items: center;
 }
 .logo {
   margin-right: 59px;
@@ -79,4 +86,47 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.sidebar {
+  padding-left: 32px;
+}
+.nav-menu {
+  margin: 0 0 60px 0;
+  padding-left: 0;
+  list-style: none;
+}
+.nav-item {
+  margin-bottom: 28px;
+  color: #898989;
+}
+.nav-text {
+  margin-left: 13px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #898989;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: #FF0000;
+}
+.nav-link:hover .icon{
+  fill: #FF0000;
+  opacity: 1;
+}
+.nav-item .icon {
+  fill: #000000;
+  opacity: .24;
+}
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.nav-title {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
